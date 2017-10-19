@@ -30,11 +30,9 @@ def kesha_maker(a)
   end
 
   def find_a(a)
-    a.select do |x|
-        y = x.split("")
-        if y[0] == "a" || y[0] == "A"
-          true
-  end 
+    a.keep_if do |i|
+    i.start_with?("a")
+  end
 end
 
   def sum_array
