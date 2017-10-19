@@ -1,4 +1,5 @@
 def sort_array_asc(a)
-
-a.sort { |x,y| y <==> x }
+a.sort
+end
+a.sort! { |x,y| y <==> x }
 end
