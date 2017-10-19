@@ -28,3 +28,21 @@ def kesha_maker(a)
     end
     x
   end
+
+  def find_a(a)
+    a.select do |x|
+        y = x.split("")
+        if y[0] == "a" || y[0] == "A"
+          true
+        end
+      end
+    end
+  end 
+
+  def sum_array
+
+  end
+
+  def add_s
+
+  end 
