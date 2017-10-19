@@ -35,7 +35,7 @@ def kesha_maker(a)
         if y[0] == "a" || y[0] == "A"
           true
   end 
-end 
+end
 
   def sum_array
 
