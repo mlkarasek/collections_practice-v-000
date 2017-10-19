@@ -18,3 +18,8 @@ end
 def reverse_array(a)
   a.reverse
 end 
+
+def kesha_maker(a)
+kesha_maker(a) do |$|
+  puts $
+end 
