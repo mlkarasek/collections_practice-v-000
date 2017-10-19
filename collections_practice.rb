@@ -3,5 +3,5 @@ a.sort
 end
 
 def sort_array_desc(a)
-  a.sort! { |x,y| y <==> x }
+  a.sort! { |a,b| b <==> a }
 end 
