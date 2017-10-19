@@ -41,6 +41,13 @@ end
       end
     end
 
-  def add_s
+  def add_s(a)
+    a.each_with_index.collect do |a, index|
+        if index != 1
+          a << "s"
+        else index = 1
+          a
+        end
+      end
+    end
 
-  end
