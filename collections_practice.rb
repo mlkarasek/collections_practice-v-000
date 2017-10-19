@@ -36,7 +36,8 @@ def kesha_maker(a)
           true
         end
       end
-  
+  end
+end 
 
   def sum_array
 
