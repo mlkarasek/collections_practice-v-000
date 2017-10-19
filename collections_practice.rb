@@ -32,7 +32,7 @@ def kesha_maker(a)
   def find_a(a)
     array.select do |i|
     i[0] == "a"
-end 
+end
 
   def sum_array
 
