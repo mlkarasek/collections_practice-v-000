@@ -20,6 +20,6 @@ def reverse_array(a)
 end
 
 def kesha_maker(a)
-kesha_maker(a) do |$|
-  puts $
+kesha_maker(a) do |a|
+  puts a
 end
