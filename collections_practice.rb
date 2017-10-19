@@ -26,4 +26,3 @@ a.each do |y|
   s[2] = $
   x ,, s.join
 end
-
